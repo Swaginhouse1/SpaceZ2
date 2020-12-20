@@ -1,0 +1,334 @@
+/* {
+    outline: 1px solid red;
+}
+*/
+.footer-list {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.button1{
+    background-color:#222222;
+    border-radius: 25px;
+    width:240px;
+    border:0;
+    line-height: 50px;
+    display:inline-block;
+    font-family: Verdana;
+    font-size:14px;
+    font-weight:bold;
+    color:#ffffff;
+    position:relative;
+    padding-left: 25px;
+    margin-top:40px;
+}
+
+.button1::after {
+    background-image: url("img/right-arrow-white.png");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 19px;
+    right: 25px;
+    top: 20px;
+
+    
+}
+
+
+.button {
+    background-color:#ffcb06;
+    border-radius: 25px;
+    width:240px;
+    border:0;
+    line-height: 50px;
+    display:inline-block;
+    font-family: Verdana;
+    font-size:14px;
+    font-weight:bold;
+    color:#000000;
+    position:relative;
+    padding-left: 25px;
+}
+
+.button::after {
+    background-image: url("img/right-arrow-dark.png");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 19px;
+    right: 25px;
+    top: 20px;
+
+    
+}
+
+
+th {
+    background-color: #111111;
+}
+
+
+
+.contakts {
+    margin-right: 80px;
+    margin-left: auto;
+}
+.contakts img {
+    margin-left:30px;
+    
+}
+
+
+.advice li{
+    position: relative;
+}
+
+
+.advantages li{
+    position: relative;
+    padding-top: 80px;
+}
+
+
+.advantages1::before {
+    content: "";
+    background-image: url("img/advantage-icon-1.png");
+    position: absolute;
+    height: 68px;
+    width: 60px;
+    left: 0px;
+    top: -40px;       
+}
+
+.advantages2::before {
+    content: "";
+    background-image: url("img/advantage-icon-2.png");
+    position: absolute;
+    height: 68px;
+    width: 60px;
+    left: 0px;
+    top: -40px;       
+}
+
+.advantages3::before {
+    content: "";
+    background-image: url("img/advantage-icon-3.png");
+    position: absolute;
+    height: 68px;
+    width: 60px;
+    left: 0px;
+    top: -40px;       
+}
+
+.advantages4::before {
+    content: "";
+    background-image: url("img/advantage-icon-4.png");
+    position: absolute;
+    height: 68px;
+    width: 60px;
+    left: 0px;
+    top: -40px;       
+}
+
+.advice li::before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    left: -20px;
+    top: 3px;
+    background-color: #feca30;
+    border-radius: 100%;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+}
+
+
+.contakts {
+    right: 0px;
+    position: relative;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu li {
+    margin-right: 30px;
+}
+
+body {
+    font-size: 14px;
+    font-family: Verdana;
+    color: #d4d4d4;
+}
+
+.color2 li {
+    color: #222222;
+    font-size: 14px;
+    font-family: Verdana;
+    margin-bottom: 30px;
+}
+
+.registration p {
+    color: #222222;
+    font-size: 14px;
+    font-family: Verdana;   
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.column-left {
+    width: 440px;
+}
+.column-right {
+    width: 440px;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-columns-right {
+    background-image: url("img/moon-rocket.png");
+    background-repeat: no-repeat;
+    width: 440px;
+    height:440px;
+}
+
+p {
+    margin-bottom: 60px;
+}
+.color {
+    color: #feca30;
+}
+
+.travel-map p {
+    color: #222222;
+    font-size: 14px;
+    font-family: Verdana; 
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 20px 0;
+    text-align: left;
+    border-bottom: 1px solid #555555;
+}
+
+
+
+input {
+    padding: 20px;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+.registr {
+    color: feca30;
+    font-size: 24px;
+    font-family: Courier New;
+}
+    
+input[name=fio] {
+    width: 400px;
+}
+
+input[name=phone] {
+    width: 400px;
+}
+
+h3 {
+    color: #131313;
+    font-size: 24px;
+    font-family: Courier New;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 45px;
+}
+
+h2 {
+    display:none;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages li {
+    width: 180px;
+}
+
+.advantages {
+    background-color: #131313;
+    padding: 85px 0;
+}
+
+
+header {
+    background-color: #222222;
+    padding: 85px 0;
+}
+
+.travel-map {
+    background-color: #ffffff;
+    padding: 85px 0;
+}
+
+.advice {
+    background-color: #ffffff;
+    padding-bottom: 85px;
+}
+
+.registration {
+    background-color: #f0f0f0;
+    padding: 85px 0;
+}
+
+.timetable {
+    background-color: #222222;
+    padding: 85px 0;
+}
+
+footer {
+    background-color: #131313;
+    padding: 85px 0;
+}
+
+ul {
+    margin: 0;
+}
