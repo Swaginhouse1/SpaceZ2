@@ -5,6 +5,9 @@
     <title>SpaceZ</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="white.css">
+    <script type="text/javascript" src="change.js"></script>
+
 
 </head>
 
@@ -38,10 +41,10 @@
                     <p>Космически крутой туризм.<br>
                         Пакетные и индивидуальные туры<br>
                         по лучшим планетам галактики.</p>
-                    <a class="button">Подбор тура</a>
-                    
+                    <a class="button" onclick="change();">Подбор тура</a>
+
                 </div>
-                <div class="header-columns-right">
+                <div class=" header-columns-right">
                 </div>
             </div>
         </div>
@@ -190,34 +193,41 @@
     <footer>
         <div class="container">
             <div class="columns">
-                Логотип SpaceZ
-                Space Z
-                ООО «Космос Зэ».s
-                Все права защищены.
+                <div class="footer-logo">
+                    <div class="footer-logo1">
+                        <img src="img/logo.png">
+                        <div>Space Z</div>
+                    </div>
+                    <div>
+                        ООО «Космос Зэ».s
+                        Все права защищены.
+                    </div>
+
+                </div>
+                <ul class="footer-list">
+                    <li><a>КОМПАНИЯ</a>
+                        <ul>
+                            <li>История</li>
+                            <li>Миссия</li>
+                            <li>Команда</li>
+                        </ul>
+                    </li>
+                    <li><a>КАТАЛОГ</a>
+                        <ul>
+                            <li>Полеты</li>
+                            <li>Проживания</li>
+                            <li>Экскурсия</li>
+                        </ul>
+                    </li>
+                    <li><a>КОНТАКТЫ</a>
+                        <ul>
+                            <li>Отправить заявку</li>
+                            <li>Схема проезда</li>
+                            <li>Время работы</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <ul class="footer-list">
-                <li>КОМПАНИЯ
-                    <ul>
-                        <li>История</li>
-                        <li>Миссия</li>
-                        <li>Команда</li>
-                    </ul>
-                </li>
-                <li>КАТАЛОГ
-                    <ul>
-                        <li>Полеты</li>
-                        <li>Проживания</li>
-                        <li>Экскурсия</li>
-                    </ul>
-                </li>
-                <li>КОНТАКТЫ
-                    <ul>
-                        <li>Отправить заявку</li>
-                        <li>Схема проезда</li>
-                        <li>Время работы</li>
-                    </ul>
-                </li>
-            </ul>
         </div>
     </footer>
 </body>
